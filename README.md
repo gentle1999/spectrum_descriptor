@@ -1,3 +1,10 @@
+<!--
+ * @Author: TMJ
+ * @Date: 2022-12-27 09:08:35
+ * @LastEditors: TMJ
+ * @LastEditTime: 2023-01-31 10:12:33
+ * @Description: 请填写简介
+-->
 # spectrum-descriptor
 
 ## Introduction
@@ -31,3 +38,5 @@ tqdm>=4.64.1
 The core script to generate spectrum descriptor is in [utils](utils/__init__.py), where includes [img2spec.py](utils/img2spec.py) and [spec2des.py](utils/spec2des.py).
 
 The [spec_notebook.ipynb](spec_notebook.ipynb) shows how to use and some test for it.
+
+The [OCR_performance.ipynb](OCR_performance.ipynb) shows the performance of our OCR tool.
